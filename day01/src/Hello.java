@@ -1,4 +1,4 @@
-//import는 준비 명령
+//import는 준비 명령 (원:lang.string / system =>*로 전부 불러옴)
 import java.lang.*; 
 public class Hello {
       public static void main(String[] args){
