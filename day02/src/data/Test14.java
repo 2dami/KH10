@@ -9,12 +9,12 @@ public class Test14 {
 		//준비
 		int weight = 80;
 		int height = 180;
-		float a = (float) height / 100;
-		//System.out.println(a);
+		float heightM = (float) height / 100;
+		//System.out.println(heightM);
 		
 				
 	 //계산
-		float bmi =(float) weight / (a* a);
+		float bmi =(float) weight / ( heightM * heightM );
 		
 		//출력
 		System.out.println("키가 180cm이고, 체중이 80kg인 사람의 BMI 지수");
