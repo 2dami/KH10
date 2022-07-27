@@ -10,14 +10,14 @@ public class Test14 {
 		int weight = 80;
 		int height = 180;
 		float heightM = (float) height / 100;
-		//System.out.println(heightM);
+		//System.out.println(heightM); 
 		
-				
 	 //계산
 		float bmi =(float) weight / ( heightM * heightM );
 		
 		//출력
 		System.out.println("키가 180cm이고, 체중이 80kg인 사람의 BMI 지수");
 		System.out.println(bmi);
+		// [수정한이유] 신장을 실수로 형 변환 할때, 변환한 변수명을 그냥 a로 만듦 (heightM로 변경)
 }
 }
