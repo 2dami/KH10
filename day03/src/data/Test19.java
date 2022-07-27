@@ -10,6 +10,7 @@ public class Test19 {
 		int outHour = 16 , outMinute = 22;
 		//int outHour = 15 , outMinute = 00; //경계값
 		
+		//계산
 		int inTime = (inHour *60) + inMinute;
 		int outTime = (outHour *60) + outMinute;
 		
