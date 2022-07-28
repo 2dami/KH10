@@ -7,11 +7,33 @@ import java.lang.*;
 public class Test07 {
 public static void main(String[] args) {
 	
-	int day = 1;
-	int count = 1;
-	int price = (10 * day) * count;
-	
-	
-	}
-
+	//준비
+			int count = 1;
+			int day = 1;
+			
+			int month = 6;
+					int discount = 25;
+			
+			//계산
+					int price =  day * count * 100000;
+					
+					//int result; 
+						//if(month >= 6 && month <= 8 ) {
+							//result = price * 75 / 100;
+					
+			//출력
+//if ( month == 6  || month == 7 || month == 8 )
+//if ( month >= 6  &&  month <= 8 )
+					int total;
+if (5 < month && month <9) {
+	total = price * (100 - discount ) / 100; //할인된금액
+	//출력
+	System.out.println(month + "월 경비 : " + count +"인" + day + "박에" + total + "만원");
 }
+else{
+	total = price; //원래금액
+System.out.println(month + "월 경비 : " + count +"인" + day + "박에" + total + "만원");
+}
+}
+}
+
