@@ -13,19 +13,28 @@ public class Test04_1 {
 		System.out.println("400으로 나눈 나머지 = " +year % 400);
 		
 		//boolean leap = true or false;
-		boolean leap;
-		
-	/if() { //year가 4의 배수가 아니면
-		leap = false;
+				boolean leap;
+				if(year % 4 != 0) {//year가 4의 배수가 아니면
+					leap = false;
 				}
-	else if(year가 100의 배수지만 400의 배수는 아니라면) {
-		leap = false;
-	}
-	else if(400의 배수라면) {
-		leap = true;
-	}
-	else {//나머지 4의 배수
-		leap = true;
-	}
-
-}
+				//여기서부터는 4의 배수인 경우
+				else if(year % 100 == 0 && year % 400 != 0) {//year가 100의 배수지만 400의 배수는 아니라면
+					leap = false;
+				}
+				else if(year % 400 == 0) {//400의 배수라면
+					leap = true;
+				}
+				else {//나머지 4의 배수
+					leap = true;
+				}
+				
+				
+				if(leap == true) {
+					System.out.println("윤년입니다");
+				}
+				else {
+					System.out.println("윤년이 아닙니다");
+				}
+				
+			}
+		}
