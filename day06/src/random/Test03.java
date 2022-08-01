@@ -8,20 +8,21 @@ public class Test03 {
 	public static void main(String[] args) {
 		
 		Random r = new Random();
-		int a = r.nextInt(8)+2;
+		Scanner sc = new Scanner(System.in);
 		
-		Random r2 = new Random();
+		int a = r.nextInt(8)+2;
 		int b = r.nextInt(9)+1;
 		
 		System.out.println(a + "x" + b );
 		
-		Scanner sc = new Scanner(System.in);
 		int user = sc.nextInt();
+		
 		if ( a * b == user) {
 			System.out.println(" 정답 " );
 		}
 		else {
 			System.out.println(" 오답 " );
 		}
+		sc.close();
 	}
 }
