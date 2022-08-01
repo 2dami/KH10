@@ -45,6 +45,6 @@ public static void main(String[] args) {
 	}
 	sc.close();
 	
-	System.out.println("총" +count + "번만에 맞추셨습니다.");
+	System.out.println("총" +count + "번 만에 맞추셨습니다.");
 }
 }
