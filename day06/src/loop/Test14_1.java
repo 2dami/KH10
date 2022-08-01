@@ -30,7 +30,7 @@ public class Test14_1 {
 		sc.close();
 		System.out.println( " 정답개수" + correctCount++ );
 		System.out.println(" 오답개수" + wrongCount++);
-		System.out.println(" 점수 : ")
+		System.out.println(" 점수 : ");
 
 	}
 
