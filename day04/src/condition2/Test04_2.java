@@ -11,11 +11,11 @@ package condition2;
 //3. 2번에 해당되더라도 400의 배수면 윤년이다.(ex : 2000년은 윤년)
 
 import java.util.Scanner;
-public class Test04 {
+public class Test04_2 {
 	public static void main(String[] args) {
 		
 				Scanner sc = new Scanner (System.in);
-		System.out.println("연도을 입력하세요");
+		System.out.println("연도를 입력하세요");
 		int year = sc.nextInt();
 		
 		System.out.println("월을 입력하세요");
@@ -33,17 +33,16 @@ boolean leapYear = year % 4  == 0 && year % 400  == 0 ;
 			System.out.println( year + "는 윤년이 아니고");		
 			
 			
-			if(month==2) {
+			switch(month) {
+			case 2: 
 				if( leapYear ) {
 					System.out.println(" 2월의 날짜수는 29일 입니다.");
 				}
 				else {
 					System.out.println(" 2월의 날짜수는 28일 입니다");
 				}
-			}
-			
-			switch(month) {
-			case 1: case 3: case 5: case 7: case 8: case 10: case 12:
+				break;
+			case 1: case 3: case 5: case 7: case 8: case 10: case 12:	
 				System.out.println( month + "월의 날짜수는 31일 입니다.");
 				break; 
 			case 4: case 6: case 9: case 11:
@@ -53,4 +52,3 @@ boolean leapYear = year % 4  == 0 && year % 400  == 0 ;
 		}
 	}
 }
-
