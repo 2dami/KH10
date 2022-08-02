@@ -20,5 +20,9 @@ public static void main(String[] args) {
 	for(int i=0; i < data.length; i++) {
 		System.out.println("data2 = " + data[i]);
 	}	
+	
+	
+	//교체횟수 = data[i] / 2
+	//교체범위 = data[i] -1  == 
 }
 }
