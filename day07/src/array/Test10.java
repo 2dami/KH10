@@ -29,6 +29,6 @@ public static void main(String[] args) {
 	int index = r.nextInt(size); //0부터 size개
 	
 	//출력
-	System.out.println("오늘 메뉴는 " + menu[index] + "로 합시다." );
+	System.out.println("오늘 메뉴는 " + menu[index] + "(으)로 합시다." );
 }
 }
