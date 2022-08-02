@@ -5,6 +5,7 @@ package array;
 // - 배열에서 가장 작은 값을 찾아 가장 왼쪽에 있는 데이터와 교체
 // - 교체된 데이터의 위치는 제외하고 나머지 위치에서 가장 작은 값을 찾아 좌측 데이터와 교체
 // - 데이터가 완전히 정렬될 때까지 반복
+// 사이트 참고 [https://visualgo.net/en/sorting] (https://visualgo.net/en/sorting)
 public class Test12 {
 public static void main(String[] args) {
 }
