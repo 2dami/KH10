@@ -4,5 +4,21 @@ package array;
 public class Test11 {
 public static void main(String[] args) {
 	
+	int[] data = new int [] {30, 10, 20, 50, 40};
+	
+	for (int i = 0; i < data.length; i++) {
+		System.out.println("data = " + data[i] );
+	}
+	int backup = data[0];
+	data[0] = data[4];
+	data[4] = backup;
+	
+	int backup2 = data[1];
+	data[1] = data[3];
+	data[3] = backup2;
+	
+	for(int i=0; i < data.length; i++) {
+		System.out.println("data2 = " + data[i]);
+	}	
 }
 }
