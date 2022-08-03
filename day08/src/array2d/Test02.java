@@ -8,6 +8,7 @@ public static void main(String[] args) {
 	int[][] a = new int[2][3];
 	//a ----->    a[0] ---->    [0][0][0]
 	//                a[1] ---->    [0][0][0]
+	
 	System.out.println(a.length);
 	System.out.println(a[0].length);
 	System.out.println(a[1].length);
@@ -40,6 +41,7 @@ public static void main(String[] args) {
 		}
 		System.out.println();
 	}
+	
 	//크기를 length로 최적화
 	for(int i=0; i < b.length; i++) {
 		for(int k=0; k< b[i].length; k++) {
