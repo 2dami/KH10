@@ -3,6 +3,8 @@ package array;
 public class Test13 {
 	public static void main(String[] args) {
 		
+		int[] data = new int [] {30, 20, 10, 50, 40};
+		
 	}
 
 }
