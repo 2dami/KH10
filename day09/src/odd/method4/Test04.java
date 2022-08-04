@@ -14,10 +14,10 @@ public class Test04 {
 	Menu c = new Menu();
 	Menu d = new Menu();
 	
-	a.setting("아메리카노","음료",2500, "행사중");
-	b.setting("모카라떼","음료",3500, " - ");
-	c.setting("치즈케이크","디저트",5000, "행사중" );
-	d.setting("마카롱","디저트",3000, " - " );
+	a.setting("아메리카노","음료",2500, true);
+	b.setting("모카라떼","음료",3500 );
+	c.setting("치즈케이크","디저트",5000, true);
+	d.setting("마카롱","디저트",3000 );
 	
 	a.print();
 	b.print();
