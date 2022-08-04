@@ -21,10 +21,10 @@ public class Test01 {
 	Product c = new Product();
 	Product d = new Product();
 	
-	a.setting("참이슬후레쉬","주류",1200);
-	b.setting("클라우드맥주","주류",3000);
-	c.setting("바나나킥","과자",1500);
-	d.setting("허니버터칩","과자",2000);
+	a.setting("참이슬후레쉬","주류",1200,true,true);
+	b.setting("클라우드맥주","주류",3000,false,true);
+	c.setting("바나나킥","과자",1500,false,true);
+	d.setting("허니버터칩","과자",2000,true,false);
 	
 	a.print();
 	b.print();
