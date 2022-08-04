@@ -10,5 +10,20 @@ import java.util.Random;
 public class Test07 {
 public static void main(String[] args) {
 	
+	int row = 9;
+	int col =9;
+	
+//int[][]map = new int[row][col];
+	
+	int bomb = 9; //랜덤에
+	
+	Random r = new Random();
+	for(int i =0; i < row; i++) {
+		for(int k =0; k < col; k++) {
+			
+		}
+		
+	}
+	
 }
 }
