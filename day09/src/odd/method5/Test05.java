@@ -12,5 +12,22 @@ package odd.method5;
 //약정기간을 설정하지 않은 경우에는 가격 옆에 (약정 없음) 을 출력
 //약정기간을 설정하지 않은 경우에는 5% 할인된 가격으로 출력
 public class Test05 {
-
+	public static void main(String[] args) {
+		
+		SmartPhone p1 = new SmartPhone();
+		SmartPhone p2 = new SmartPhone();
+		SmartPhone p3 = new SmartPhone();
+		SmartPhone p4 = new SmartPhone();
+	
+		p1.setting("갤럭시22s","SK",1800000);
+		p2.setting("갤럭시22s","KT",1750000,24);
+		p3.setting("아이폰13","LG",2000000,30);
+		p4.setting("아이폰13","SK",1990000);
+		
+		p1.print();
+		p2.print();
+		p3.print();
+		p4.print();
+		
+		}
 }
