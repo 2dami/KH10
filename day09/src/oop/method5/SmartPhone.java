@@ -1,4 +1,4 @@
-package odd.method5;
+package oop.method5;
 
 public class SmartPhone {
 	String name;

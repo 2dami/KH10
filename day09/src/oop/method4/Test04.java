@@ -1,4 +1,4 @@
-package odd.method4;
+package oop.method4;
 //데이터를 객체로 만들어 정보를 저장하고 출력
 //커피숍 메뉴 정보
 //이름	        분류	   가격	  행사여부

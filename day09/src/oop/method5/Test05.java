@@ -1,4 +1,4 @@
-package odd.method5;
+package oop.method5;
 //다음 데이터를 요구사항에 맞게 구조화하고 출력
 //휴대폰 판매 정보
 // 이름	     통신사	  가격	   약정개월

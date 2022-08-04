@@ -1,4 +1,4 @@
-package odd.method6;
+package oop.method6;
 
 public class Product {
 	String name;

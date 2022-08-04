@@ -1,4 +1,4 @@
-package odd.method3;
+package oop.method3;
 
 import oop.mathod2.Player;
 

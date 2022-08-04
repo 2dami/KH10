@@ -1,4 +1,4 @@
-package odd.method4;
+package oop.method4;
 
 public class Menu {
 	String name;
