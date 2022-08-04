@@ -9,11 +9,11 @@ public static void main(String[] args) {
 	//a ----->    a[0] ---->    [0][0][0]
 	//                a[1] ---->    [0][0][0]
 	
-	System.out.println(a.length);
+	System.out.println(a.length); //2
 	System.out.println(a[0].length);
 	System.out.println(a[1].length);
 	
-	int[][] b = new int[][] { // 1차원배열 (3열) 의 2묶음
+	int[][] b = new int[][] { // 1차원배열 (3명) 씩 2개의 반
 		{10,20,30},
 		{40,50,60}
 		};

@@ -10,19 +10,5 @@ import java.util.Random;
 public class Test07 {
 public static void main(String[] args) {
 	
-	//준비
-	int size = 9;
-	
-	int[][] map = new int [size][size];
-	
-
-	Random r = new Random();
-	for(int i=0; i< size ; i++) {
-		for(int k=0; k< size; ) {
-	}
-	
-	
-	
-}
 }
 }

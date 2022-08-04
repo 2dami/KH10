@@ -1,10 +1,8 @@
 package array2d;
-
 import java.util.Scanner;
-
 //사용자에게 줄 수와 칸 수를 입력받아 해당하는 크기만큼의 2차원 배열을 생성
 //좌측 상단에 1부터 채워넣어 끝까지 1씩 증가하며 숫자가 채워지도록 구현
-//구현 후 배열을 출력
+//구현 후 배열을 출력 / 3줄 4칸
 public class Test03 {
 public static void main(String[] args) {
 
