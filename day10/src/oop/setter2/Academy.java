@@ -18,6 +18,7 @@ public class Academy {
 	 if(time %30 !=0) {
 		 return;
 		}
+	 this.time = time;
 	}
 		void setPrice(int price) {
 			if(price < 0) {
@@ -25,6 +26,7 @@ public class Academy {
 			}
 			this.price = price;
 	}
+		// tip : 문자열은 비교 연산이 힘들다 (안 될 경우가 존재)
 		void setType(String type) {
 			switch(type) {
 			case"온라인":
@@ -38,8 +40,9 @@ public class Academy {
 			System.out.println(this.time);
 			System.out.println(this.price);
 			System.out.println(this.type);
+			System.out.println("\t");
 		}
-		Academy(String name,int time,int price,String type){
+		Academy(String name, int time, int price, String type){
 		this.setName(name);
 		this.setTime(time);
 		this.setPrice(price);
