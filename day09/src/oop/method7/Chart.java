@@ -11,5 +11,42 @@ package oop.method7;
 //차트 랭킹 계산 공식이 다음과 같을 때 랭킹 점수를 구하여 추가로 출력
 // -랭킹 점수 = 재생수 * 2 + 좋아요 / 2
 public class Chart {
+	 String title;
+		String name;
+		String album;
+		int play;
+		int like;
 
-}
+	void setting(String title,String name,String album,int play) {
+	this.setting(title, name, album, play);
+	}
+
+	void setting(String title,String name,String album,int play,int like) {
+	this.title = title;
+	this.name = name;
+	this.album =album;
+	this.play = play;
+	this.like = like;
+	}
+	void print() {
+	double ranking = (double) this.play *2 + this.like /2;
+
+	System.out.println( " <음원차트> ");
+
+	if(this.play >= 100000) {
+		System.out.println( "제목 : " + this.title + " \"베스트\"");
+	}
+	else if (this.like>=100000) {
+		System.out.println( "제목 : " + this.title+" \"인기곡\"");
+	}
+	else {
+		System.out.println( "제목 : " + this.title);
+	}
+	System.out.println( "가수 : " + this.name);
+	System.out.println( "앨범 : " + this.album);
+	System.out.println( "재생수 : " + this.play);
+	System.out.println( " 좋아요 수 : " + this.like);
+	System.out.println( "랭킹점수 : " + ranking);
+	}
+	}
+
