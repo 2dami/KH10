@@ -2,7 +2,8 @@ package oop.setter1;
 
 public class Test01 {
 	public static void main(String[] args) {
-Car a = new Car();
+
+		Car a = new Car();
 		
 //		(문제점) 변수는 이상데이터 방지가 불가능
 //		a.name = "아반떼";
