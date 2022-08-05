@@ -9,5 +9,10 @@ package oop.getter2;
 //결과 출력 시 총점과 평균, 통과 여부를 확인할 수 있어야 함
 //과목별 40점 이상이고 평균 60점 이상이면 통과, 아니면 재평가
 public class Result {
-
+	String name;
+	String subject;
+	int score1;
+	int score2;
+	
 }
+
