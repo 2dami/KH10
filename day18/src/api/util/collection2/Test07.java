@@ -1,4 +1,4 @@
-package api.util.collection3;
+package api.util.collection2;
 
 import java.util.Set;
 import java.util.TreeSet;
