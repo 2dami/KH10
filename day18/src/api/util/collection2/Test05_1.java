@@ -7,7 +7,7 @@ import java.util.TreeSet;
 
 public class Test05_1 {
 	public static void main(String[] args) {
-		//집합 연산
+		//집합 연산 set
 		Set<Integer> a = new TreeSet<>();
 		a.add(1);
 		a.add(2);
@@ -22,7 +22,7 @@ public class Test05_1 {
 		Set<Integer> c = new TreeSet<>();
 		c.addAll(a);
 		c.addAll(b);
-		System.out.println(c); // [1, 2, 3, 4, 5]
+		System.out.println(c); // // 중복된 숫자는 하나를 제거하고 들어간다 [1, 2, 3, 4, 5]
 		
 		//교집합
 		Set<Integer> d = new TreeSet<>();
