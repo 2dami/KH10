@@ -38,6 +38,7 @@ public class Test01 {
 		//주의 -null이 나올수도 있는 상황이라면 원시형을 사용할수 없다.
 		String name = "길";
 		Integer age = people.get(name);
+		//int age = null; 원시형에 null은 존재할 수 없기 때문에 Integer을 써야함
 		System.out.println("나이=" + age);
 		
 	
