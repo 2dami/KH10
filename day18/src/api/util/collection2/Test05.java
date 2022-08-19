@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Test05 {
 	public static void main(String[] args) {
-		//집합 연산
+		//집합 연산 - list를 쓸 때 문제점 
 		List<Integer> a = new ArrayList<>();
 		a.add(1);
 		a.add(2);
