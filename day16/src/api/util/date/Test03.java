@@ -1,4 +1,4 @@
-package api.util.data;
+package api.util.date;
 
 import java.sql.Time;
 import java.text.Format;
